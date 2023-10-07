@@ -1,0 +1,3 @@
+.search-area .buttons .search:hover {
+  background-color: var(--secondary-hover-color);
+}

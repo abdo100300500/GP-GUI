@@ -1,15 +1,14 @@
 import React, { useState } from "react";
-import "./input.css";
+import "./inputAdmin.css";
 
-function Input() {
+function InputAdmin() {
   const [url, setUrl] = useState("");
-  const [urlArray, setUrlArray] = useState([]); 
-
+  const [urlArray, setUrlArray] = useState([]);
 
   const handleAddClick = () => {
     if (url.trim() !== "") {
       setUrlArray([...urlArray, url]);
-      setUrl(""); 
+      setUrl("");
     }
   };
 
@@ -43,5 +42,4 @@ function Input() {
   );
 }
 
-export default Input;
-
+export default InputAdmin;

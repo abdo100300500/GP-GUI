@@ -1,10 +1,16 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import AdminGui from './Components/admin/adminGui';
+import AdminGui from "./Components/admin/adminGui";
+import UserGui from "./Components/user/userGui";
 
 function App() {
   return (
     <>
-      <AdminGui />
+      <Routes>
+        <Route path="/" element={<UserGui />} />
+        <Route path="/admin" element={<AdminGui />} />
+      </Routes>
+      {/* <AdminGui /> */}
     </>
   );
 }

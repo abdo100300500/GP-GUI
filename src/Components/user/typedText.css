@@ -1,0 +1,19 @@
+.featured-name {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.featured-name h1 {
+  color: white;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .featured-name h1 {
+    font-size: 30px;
+  }
+}
+
+.featured-name .typedText {
+  color: var(--secondary-hover-color);
+}

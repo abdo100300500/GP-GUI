@@ -1,6 +1,8 @@
 :root {
   --main-color: #343541;
   --secondary-color: #202123;
+  --main-hover-color: #19c37d;
+  --secondary-hover-color: #e55604;
 }
 body {
   margin: 0;
@@ -15,4 +17,30 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.search-area .buttons button {
+  padding: 10px 15px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  background-color: var(--main-color);
+  color: white;
+  outline: none;
+  border: 1px solid var(--main-color);
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+@media (min-width: 768px) {
+  .search-area .buttons button {
+    font-size: 20px;
+    width: 150px;
+  }
 }

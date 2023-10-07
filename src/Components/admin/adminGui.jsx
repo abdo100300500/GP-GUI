@@ -1,11 +1,11 @@
 import Navbar from "../../Shared/nav";
-import Input from "./input";
+import InputAdmin from "./inputAdmin";
 
 function AdminGui() {
   return (
     <>
       <Navbar />
-      <Input />
+      <InputAdmin />
     </>
   );
 }
