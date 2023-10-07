@@ -36,7 +36,7 @@
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./inputUser.css";
+import "../style/inputUser.css";
 
 function InputUser() {
   const [inputValue, setInputValue] = useState("");

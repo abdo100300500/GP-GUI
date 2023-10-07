@@ -1,6 +1,6 @@
 import Navbar from "../../Shared/nav";
-import InputUser from "./inputUser";
-import TypedText from "./typedText";
+import InputUser from "./component/inputUser";
+import TypedText from "./component/typedText";
 function UserGui() {
   return (
     <>

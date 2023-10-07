@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Typed from "typed.js";
-import "./typedText.css";
+import "../style/typedText.css";
 
 function TypedText() {
   useEffect(() => {
