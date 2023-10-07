@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./inputAdmin.css";
+import "../../index.css";
 
 function InputAdmin() {
   const [url, setUrl] = useState("");
@@ -18,7 +19,7 @@ function InputAdmin() {
 
   return (
     <>
-      <div className="search-area">
+      <div className="search-area container">
         <div className="input">
           <label htmlFor="url-input">Enter Url : </label>
           <input

@@ -1,0 +1,11 @@
+.SearchResult-container {
+  min-height: 2000px;
+}
+
+.SearchResult-container h3 {
+  margin: 0;
+  text-align: center;
+  color: var(--secondary-hover-color);
+  background-color: var(--main-color);
+  padding: 20px;
+}
