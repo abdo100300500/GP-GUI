@@ -38,6 +38,7 @@ code {
   -o-border-radius: 6px;
   background-color: var(--main-color);
   color: white;
+  
   outline: none;
   border: 1px solid var(--main-color);
   cursor: pointer;

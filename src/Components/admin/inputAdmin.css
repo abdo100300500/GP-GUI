@@ -1,6 +1,6 @@
 .search-area {
   width: 90%;
-  margin: 50px auto 0px;
+  margin: 30px auto 0px;
   text-align: center;
 }
 
@@ -31,7 +31,7 @@
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgb(0, 0, 0);
 }
 @media (min-width: 768px) {
   .search-area .input input {
@@ -42,7 +42,7 @@
 }
 
 .search-area .buttons {
-  margin-top: 20px;
+  margin: 20px;
 }
 
 .search-area .buttons button:not(:last-child) {
@@ -55,4 +55,18 @@
 
 .search-area .buttons .fetch:hover {
   background-color: var(--secondary-hover-color);
+}
+.urls-container {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
 }
